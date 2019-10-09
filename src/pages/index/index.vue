@@ -30,9 +30,9 @@
 </template>
 
 <script>
-import "../../libs/glfx.js/glfx.js";
 import "../../libs/jquery/jquery-1.5.1.min.js";
 import "../../libs/jquery/jquery.ui.slider.js";
+import "../../libs/glfx.js/glfx.js";
 import obj from "../../js/script.js";
 export default {
   data() {
@@ -51,11 +51,11 @@ export default {
 </script>
 
 <style>
-/* * {
+* {
     cursor: default;
     -moz-user-select: none;
     -webkit-user-select: none;
-} */
+}
 
 a {
   color: #fc0;
